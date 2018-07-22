@@ -1,0 +1,105 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,bg_launch@2x_jpg,launch_game_animation_json,launch_game_animation_png,logo@2x_png",
+			"name": "preload"
+		},
+		{
+			"keys": "loading_animation_json,loading_animation_png,btn_game_over_continue@2x_png,btn_game_over_continue_on@2x_png,img_game_over@2x_png,answer_times_up_animation_json,answer_times_up_animation_png,answer_correct_animation_json,answer_correct_animation_png,answer_wrong_animation_json,answer_wrong_animation_png,quiz_scene_json,bg_tu@2x_jpg",
+			"name": "answer"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/AnswerGame/bg_tu@2x.jpg",
+			"type": "image",
+			"name": "bg_tu@2x_jpg"
+		},
+		{
+			"url": "assets/Common/loading_animation.json",
+			"type": "json",
+			"name": "loading_animation_json"
+		},
+		{
+			"url": "assets/Common/loading_animation.png",
+			"type": "image",
+			"name": "loading_animation_png"
+		},
+		{
+			"url": "assets/AnswerGame/quiz_scene.json",
+			"type": "sheet",
+			"name": "quiz_scene_json",
+			"subkeys": "btn_answer@2x_png,btn_answer_on@2x_png,btn_bad@2x_png,btn_bad_1@2x_png,btn_bad_1_selected@2x_png,btn_bad_2@2x_png,btn_bad_2_selected@2x_png,btn_bad_3@2x_png,btn_bad_3_selected@2x_png,btn_bad_4@2x_png,btn_bad_4_selected@2x_png,btn_bad_on@2x_png,btn_bad_selected@2x_png,btn_continue@2x_png,btn_continue_on@2x_png,btn_correct_answer@2x_png,btn_good@2x_png,btn_good_1@2x_png,btn_good_1_selected@2x_png,btn_good_2@2x_png,btn_good_2_selected@2x_png,btn_good_3@2x_png,btn_good_3_selected@2x_png,btn_good_4@2x_png,btn_good_4_selected@2x_png,btn_good_on@2x_png,btn_good_selected@2x_png,btn_report@2x_png,btn_wrong_answer@2x_png,icon_back@2x_png,img_bomb@2x_png,img_jump_over@2x_png,img_opportunity@2x_png,img_problem@2x_png"
+		},
+		{
+			"url": "assets/GameOver/btn_game_over_continue@2x.png",
+			"type": "image",
+			"name": "btn_game_over_continue@2x_png"
+		},
+		{
+			"url": "assets/GameOver/btn_game_over_continue_on@2x.png",
+			"type": "image",
+			"name": "btn_game_over_continue_on@2x_png"
+		},
+		{
+			"url": "assets/GameOver/img_game_over@2x.png",
+			"type": "image",
+			"name": "img_game_over@2x_png"
+		},
+		{
+			"url": "assets/AnswerGame/answer_times_up_animation.json",
+			"type": "json",
+			"name": "answer_times_up_animation_json"
+		},
+		{
+			"url": "assets/AnswerGame/answer_times_up_animation.png",
+			"type": "image",
+			"name": "answer_times_up_animation_png"
+		},
+		{
+			"url": "assets/AnswerGame/answer_correct_animation.json",
+			"type": "json",
+			"name": "answer_correct_animation_json"
+		},
+		{
+			"url": "assets/AnswerGame/answer_correct_animation.png",
+			"type": "image",
+			"name": "answer_correct_animation_png"
+		},
+		{
+			"url": "assets/AnswerGame/answer_wrong_animation.json",
+			"type": "json",
+			"name": "answer_wrong_animation_json"
+		},
+		{
+			"url": "assets/AnswerGame/answer_wrong_animation.png",
+			"type": "image",
+			"name": "answer_wrong_animation_png"
+		},
+		{
+			"url": "assets/LaunchGame/bg_launch@2x.jpg",
+			"type": "image",
+			"name": "bg_launch@2x_jpg"
+		},
+		{
+			"url": "assets/LaunchGame/launch_game_animation.json",
+			"type": "json",
+			"name": "launch_game_animation_json"
+		},
+		{
+			"url": "assets/LaunchGame/launch_game_animation.png",
+			"type": "image",
+			"name": "launch_game_animation_png"
+		},
+		{
+			"url": "assets/LaunchGame/logo@2x.png",
+			"type": "image",
+			"name": "logo@2x_png"
+		}
+	]
+}
