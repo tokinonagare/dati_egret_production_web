@@ -19,14 +19,14 @@
     "tls": [
       {
         "hosts": [
-          "www.shafayouxi.org"
+          "DOMAIN_PLACEHOLDER"
         ],
         "secretName": "dati-tls"
       }
     ],
     "rules": [
       {
-        "host": "www.shafayouxi.org",
+        "host": "DOMAIN_PLACEHOLDER",
         "http": {
           "paths": [
             {
